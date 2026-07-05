@@ -61,3 +61,15 @@ header .navlinks a:hover {
   height: 300px;
   object-fit: contain;
 }
+.btn{
+   border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  width: 80px;
+background-color: green;
+
+}
+.btn:hover {
+  box-shadow:
+    inset -10px -10px 18px #fff,
+    inset 10px 10px 10px #94a3b8;
+}
