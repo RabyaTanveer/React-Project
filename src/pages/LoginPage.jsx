@@ -44,10 +44,12 @@ function LoginPage() {
   };
 
   return (
-    <div style={{ width: "300px", margin: "20px auto" }}>
-      <h2>Login</h2>
-      <form onSubmit={submitHandler}>
+    <div style={{ width: "300px", margin: "20px auto" , }}>
+      <h2 style={{fontSize:"50px",color:"green"}}>Login</h2>
+      <form className="login-form" 
+      onSubmit={submitHandler}>
         <input
+        className="login"
           type="text"
           placeholder="User Name"
           style={{ width: "100%", padding: "8px", marginBottom: "10px" }}
@@ -57,6 +59,7 @@ function LoginPage() {
         />
 
         <input
+     className="login"
           type="password"
           placeholder="Password"
           style={{ width: "100%", padding: "8px", marginBottom: "10px" }}
@@ -66,6 +69,7 @@ function LoginPage() {
         />
 
         <input
+        className="btn"
           type="submit"
           style={{
             padding: "8px",
