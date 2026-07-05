@@ -8,7 +8,7 @@ function PrivateRoute({ children }) {
     return <Navigate to="/login" />;
   }
 
-  return children;
+  return children; /////children is dashboard and profile
 }
 
 export default PrivateRoute;
